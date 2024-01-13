@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Habibi&display=swap');
+
+body{
+    margin: auto;
+}
+.container{
+    max-width: 1300px !important;
+}
+/* ==================== nav start ====================  */
+.nav_options_ul{
+    gap: 47px;
+}
+.nav_options_ul .nav_options{
+    font-family: 'Gupter', serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.34px;
+    border-bottom: 2px solid #Ffffff ;
+    transition: 0.4s;
+}
+.nav_options_ul .nav_options:hover{
+    border-bottom: 2px solid #000000;
+}
+.icon .icon_ul{
+    font-size: 35px;
+    gap: 33px;
+}
+.trash{
+    margin-top: 7px;
+}
+.red_circle{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background: #FE0303;
+    top: -4px;
+    right: -7px;
+}
+/* ==================== nav end ====================  */
+
+/* ==================== hero start ====================  */
+.hero_h1{
+    margin: 72px 0 43px 0;
+    font-family: 'Habibi', serif;
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 76px;
+    letter-spacing: 1.33px;
+    color: #292019;
+}
+.hero_p{
+    width: 29.4375rem;
+    font-family: 'Habibi', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+}
+.button_s{
+    gap: 33px;
+    margin: 43px 0 209px 0;
+}
+.button_s .tapone{
+    color: #C4A586;
+    background: #ffffff;
+    font-family: 'Gupter', serif;
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 0.54px;
+    padding: 30px 70px;
+    border: 3px solid #C4A586;
+    transition: 0.4s;
+    margin-right: 30px;
+}
+.button_s .taptwo{
+    color: #C4A586;
+    background: #ffffff;
+    font-family: 'Gupter', serif;
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 0.54px;
+    padding: 30px 41px;
+    border: 3px solid #C4A586;
+    transition: 0.4s;
+}
+.button_s button:hover{
+    color: #ffffff;
+    background: #C4A586;
+}
+.hero_img{
+    margin: 105px 0px 0 -20px;
+}
+/* ==================== hero end ====================  */
+
+/* ==================== trusted clint start ====================  */
+.trusted_clint_start_h5{
+    font-family: 'Gupter', serif;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 0.46px;
+}
+.clint_h2{
+    margin: 96px 0 78px 0;
+    font-family: 'Gupter', serif;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    color: #72696A;
+}
+/* ==================== trusted clint end ====================  */
+
+/* ==================== no container start ====================  */
+.no_div_txt_one{
+    gap: 81px;
+}
+.nocontainer_h5{
+    margin: 78px 0 41px 0;
+    font-family: 'Gupter', serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+.nocontainer_h6{
+    color: #C4A586;
+    font-family: 'Gupter', serif;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.no_textone{
+    margin-right: 100px;
+}
+.no_imgone{
+    margin-top: 14px;
+}
+.one{
+    left: -40px;
+}
+.no_main .two .no_div_txt_two{
+    background: #C4A586;
+}
+.no_div_txt_two{
+    gap: 150px;
+}
+.no_texttwo{
+    margin-right: 100px;
+    padding: 74px 0px 118px 100px;
+}
+.nocontainer_two_h5{
+    margin-bottom: 41px;
+    font-family: 'Gupter', serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+.nocontainer_two_h6{
+    color: #72696A;
+    font-family: 'Gupter', serif;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.no_imgtwo {
+    padding: 43px 17px 80px 30px;
+    background: #C4A586;
+}
+.two {
+    right: 57px;
+}
+/* ==================== no container end ====================  */
+
+/* ==================== product nav start ====================  */
+    .product_nav_bar{
+        margin: 453px 0 0 0;
+    }
+    .product_nav_heading{
+        font-family: 'Gupter', serif;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+    }
+    .product_nav_ul li a{
+        font-family: 'Gupter', serif;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 0.6px;
+        color: #000000;
+    }
+    .product_nav_ul li .product_nav_a_one{
+        margin-right: 108px;
+    }
+    .product_nav_ul li .product_nav_a_two{
+        margin-right: 140px;
+    }
+    .product_nav_ul li .product_nav_a_three{
+        font-size: 16px;
+        letter-spacing: .32px;
+        color: #C4A586;
+        margin-right: 78px;
+    }
+    .product_nav_i{
+        margin-left: 30px;
+    }
+/* ==================== product nav end ====================  */
+
+/* ==================== product start ====================  */
+    .product_top{
+        gap: 22px;
+        margin: 77px 0 200px 0;
+    }
+    .item{
+       width: 402.3px;
+       height: 302.86px;
+       background: rgba(196, 165, 134, 0.63);    
+    }
+    .cart_button{
+        height: 68.34px;
+        width: 208.47px;
+        border-radius: 25px;
+        background: #D1A070;
+        top: -36.8px ;
+        left: 106.84px;
+    }
+    .cart_a{
+        font-family: 'Gupter', serif;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.32px;
+        color: #000000;
+    }
+    .cart_a i{
+        font-size: 25px;
+        margin-left: 25px;
+        color: #72696A;
+    }
+    .item_one{
+        margin-top: 36px;
+    }
+    .item_two{
+        margin-top: 64px;
+    }
+    .item_three{
+        height: 328px;
+        margin-top: 60px; 
+    }
+    .item_details{
+        padding: 36px 0  154px 84.67px ;
+    }
+    .item_name{
+        font-family: 'Habibi', serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 76px;
+        letter-spacing: 0.44px;
+    }
+    .item_price h6{
+        margin-left: 58px;
+        font-family: 'Gupter', serif;
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: 0.34px;
+        gap: 41px;
+    }
+    .item_price_h6{
+        color: #72696A;
+        font-size: 18px;
+        letter-spacing: 0.3px;
+    }
+    .item_img{
+        top: 158px;
+        left: 70px;
+    }
+    .item_two .item_img{
+        top: 132px;
+        left: 75px;
+    }
+    .item_three .item_img{
+        top: 174px;
+        left: 118px;
+    }
+    .product_bottom{
+        gap: 22px;
+        margin: 225px 0 200px 0;
+    }
+    .product_bottom .item_two .item_img{
+        top: 167px;
+        left: 116px;
+    }
+    .product_bottom .item_three .item_img{
+        top: 132px;
+        left: 75px;
+    }
+/* ==================== product end ====================  */
+
+/* ==================== review start ====================  */ 
+.review_top{
+    margin-top: 322px;
+}
+.review_h2{
+    font-family: 'Gupter', serif;
+    font-size: 55px;
+    font-weight: 500;
+    margin-top: 71px;
+}
+.review_p{
+    font-family: 'Habibi', serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 71px;
+    width: 559px;  
+}
+.rating{
+    margin-top: 111px;
+    gap: 92px;
+}
+.rater_name h5{
+    font-family: 'Gupter', serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: .44px;
+}
+.rater_name h6{
+    font-family: 'Habibi', serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: .34px;
+}
+.next_pre{
+    margin-top: 85px;
+    display: flex;
+    gap: 18px;
+}
+.next_pre a{
+    font-size: 22px;
+    color: #000000;
+    border: 3px solid #000000;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    transition: 0.4s;
+}
+.next_pre a:hover {
+    border: 3px solid #B99272;
+    background: #B99272;
+    color: #ffffff;
+}
+.next_pre a i{
+    top: 3px;
+    left: 4px;
+}
+.review_bottom {
+    margin: 54px 0 0 289px;
+    gap: 14px;
+}
+/* ==================== review end ====================  */
+
+/* ==================== ending start ====================  */ 
+.content{
+    margin: 95px 0 114px 0;
+}
+.content_bone{
+    margin-top: 62px;
+    border: 2px solid #C4A586;
+    transition: 0.4s;
+    border-radius: 30px;
+    width: fit-content;
+}
+.content_bone:hover{
+    background: #C4A586;
+}
+.content_bone:hover a{
+    color: #ffffff;
+}
+.content_bone a{
+    transition: 0.4s;
+    margin: 17px 41px;
+    color: #C4A586;
+    font-family: 'Habibi', serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .33px;
+}
+.content h2{
+    width: 349px;
+    margin-top: 25px;
+    font-family: 'Gupter', serif;
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+
+
+}
+.email{
+    background: #D9D9D9;
+    border-radius: 13px;
+    height: 4.88rem;
+    width: 30.75rem;
+    border: none;
+}
+.content_btwo {
+    top: 10px;
+    width: max-content;
+}
+::placeholder{
+    font-family: 'Gupter',serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.36px;
+    color: #000000;
+    padding-left: 26px;
+}
+.content_btwo a .get h3{
+    background: #C4A586;
+    padding: 22px 30px 22px 30px;
+    color: #ffffff;
+    font-family: 'Gupter',serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    border-radius: 13px 0 0 13px;
+    transition: 0.4s;
+}
+.content_btwo .i{
+    padding: 21px 30px 21px 30px;
+    background: rgba(196, 165, 134, 0.44);
+    margin-right: 8px;
+    border-radius: 0 13px 13px 0;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+    transition: 0.4s;
+
+}
+.content_btwo:hover .get h3{
+background: rgba(196, 165, 134, 0.44);
+color: #000000;
+}
+.content_btwo:hover .i{
+    background: #C4A586;
+    color: #ffffff;
+}
+.content_btwo a {
+    right: 0px;
+}
+.middle{
+    margin-top: 226px;
+}
+.middle_a{
+    color: #000000;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'Gupter', serif;
+    letter-spacing: 0.38px;
+    margin: 0 0 0 9px;
+}
+.middle_a i{
+    margin-left: 9px;
+}
+/* ==================== ending end ====================  */ 
+
+/* ==================== footer start ====================  */ 
+#foot .icon_ul{
+    color: #B99272;
+}
+.foot_bottom{
+    border-top: 1px solid #000000;
+}
+.foot_bottom h6{
+    margin-top: 47px;
+    font-family: 'Gupter', serif;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.38px;
+}
+.foot_bottom h6 span{
+    color: #C4A586;
+}
+/* ==================== footer end ====================  */ 
+
